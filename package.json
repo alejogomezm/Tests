@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:chrome": "testcafe chrome ./Test",
+    "test:firefox": "testcafe firefox ./Test"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "testcafe": "^1.5.0"
+    
   }
 }
